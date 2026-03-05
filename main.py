@@ -29,7 +29,7 @@ app.config['MAIL_SERVER'] = 'mail.privateemail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'mailer@maxtan.co'
-app.config['MAIL_PASSWORD'] = 'pbkpbk2004'
+app.config['MAIL_PASSWORD'] = ''
 
 mail = Mail(app)
 login_manager = LoginManager(app)
